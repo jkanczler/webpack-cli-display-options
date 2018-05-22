@@ -1,0 +1,14 @@
+{
+  "name": "webpack-cli-display-options",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build-display-none": "webpack --json --display none",
+    "build-display-minimal": "webpack --json --display minimal"
+  },
+  "devDependencies": {
+    "webpack": "4.8.3",
+    "webpack-cli": "2.1.3"
+  }
+}
